@@ -149,7 +149,7 @@ public abstract class TemporalAction extends Action {
 	}
 
 	/**
-	 * Returns true after {@link #act(float)} has been called where time >= duration.
+	 * Returns true after {@link #act(float)} has been called where time larger or equal to duration.
 	 */
 	public boolean isComplete() {
 		return complete;

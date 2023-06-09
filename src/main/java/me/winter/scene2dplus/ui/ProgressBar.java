@@ -409,7 +409,7 @@ public class ProgressBar extends Widget implements Disableable {
 	}
 
 	/**
-	 * If > 0, changes to the progress bar value via {@link #setValue(float)} will happen over this duration in seconds.
+	 * If larger than 0, changes to the progress bar value via {@link #setValue(float)} will happen over this duration in seconds.
 	 */
 	public void setAnimateDuration(float duration) {
 		this.animateDuration = duration;
